@@ -1,0 +1,34 @@
+ .header {
+    min-height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.item-menu {
+
+    padding: 10px 15px;
+}
+
+.link-menu {
+    text-decoration: none;
+    color:  white;
+    font-size: 1.6rem;
+    text-decoration-style: solid;
+}
+
+#icone-menu {
+    font-size: 2rem;
+    display: none;
+}
+
